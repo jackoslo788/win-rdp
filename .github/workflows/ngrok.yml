@@ -31,8 +31,7 @@ jobs:
     - run: Invoke-WebRequest https://github.com/CI-Devs/Windows-RDP-ACTIONS/raw/main/send_telegram.ps1 -OutFile C:\send_telegram.ps1
     
     
-    - run:  Invoke-WebRequest https://github.com/CI-Devs/Windows-RDP-ACTIONS/raw/main/send_telegram.ps1 -OutFile C:\send_telegram.ps1
-   
+  
             
       
     - name: NGROK Tunnel and telegram
